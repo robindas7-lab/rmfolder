@@ -1,0 +1,36 @@
+{
+  "name": "rocket-matka-v3",
+  "version": "1.0.0",
+  "description": "Fully Autonomous System for Rocket Matka",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "scraper": "node scraper/index.js"
+  },
+  "dependencies": {
+    "next": "14.2.3",
+    "react": "^18",
+    "react-dom": "^18",
+    "mongoose": "^8.4.0",
+    "puppeteer": "^22.9.0",
+    "framer-motion": "^11.2.6",
+    "lucide-react": "^0.379.0",
+    "socket.io": "^4.7.5",
+    "socket.io-client": "^4.7.5",
+    "clsx": "^2.1.1",
+    "tailwind-merge": "^2.3.0",
+    "date-fns": "^3.6.0"
+  },
+  "devDependencies": {
+    "typescript": "^5",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.3"
+  }
+}
